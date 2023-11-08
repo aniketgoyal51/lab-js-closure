@@ -12,7 +12,7 @@ describe('Closures and Scope - ', function () {
 
     actualResult = `The item is not present and is at index -1000000`;
 
-    expectedResult = dummy();
+    expectedResult = dummy;
 
     expect(actualResult).toEqual(expectedResult);
   });
@@ -22,7 +22,7 @@ describe('Closures and Scope - ', function () {
 
     actualResult = `The item is present and is at index 3`;
 
-    expectedResult = dummy();
+    expectedResult = dummy;
 
     expect(actualResult).toEqual(expectedResult);
   });
